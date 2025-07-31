@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
-    <servers>
-        <server>
-            <id>ossrh</id>
-            <username>${env.SONATYPE_USERNAME}</username>
-            <password>${env.SONATYPE_PASSWORD}</password>
-        </server>
-        <server>
-            <id>sonatype-nexus-snapshots</id>
-            <username>${env.SONATYPE_USERNAME}</username>
-            <password>${env.SONATYPE_PASSWORD}</password>
-        </server>
-        <server>
-            <id>sonatype-nexus-staging</id>
-            <username>${env.SONATYPE_USERNAME}</username>
-            <password>${env.SONATYPE_PASSWORD}</password>
-        </server>
-    </servers>
+    <mirrors>
+        <mirror>
+            <id>central</id>
+            <mirrorOf>*</mirrorOf>
+            <url>https://repo1.maven.org/maven2</url>
+            <name>Maven Central</name>
+        </mirror>
+    </mirrors>
 </settings>
+

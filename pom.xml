@@ -29,7 +29,7 @@
         <hibernate.version>5.4.29.Final</hibernate.version>
         <javax.el.version>3.0.0</javax.el.version>
         <javax.el-api.version>3.0.0</javax.el-api.version>
-        <jms.version>1.1</jms.version>
+        <jms.version>2.0.1</jms.version>
         <hibernate-validator.version>6.1.7.Final</hibernate-validator.version>
 
         <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
